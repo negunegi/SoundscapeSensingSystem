@@ -1,0 +1,199 @@
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 179, in main_for_collection
+    mqtt_publish('soundscape',json_send)
+  File "/home/pi/code_test/mqttServe_publish_test/publish_single.py", line 7, in mqtt_publish
+    ,port=1883,auth={'username':'soundscape','password':'soundscape.iue712'},keepalive=5)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 232, in single
+    protocol, transport, proxy_args)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 167, in multiple
+    client.connect(hostname, port, keepalive)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 941, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1075, in reconnect
+    sock = self._create_socket_connection()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3546, in _create_socket_connection
+    return socket.create_connection(addr, source_address=source, timeout=self._keepalive)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+于2021_07_02_09_01_08发生timed out错误数据未写入,已经存入sqllite数据库,本次循环开始于2021-07-02 09:00:00=========================================================
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 179, in main_for_collection
+    mqtt_publish('soundscape',json_send)
+  File "/home/pi/code_test/mqttServe_publish_test/publish_single.py", line 7, in mqtt_publish
+    ,port=1883,auth={'username':'soundscape','password':'soundscape.iue712'},keepalive=5)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 232, in single
+    protocol, transport, proxy_args)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 167, in multiple
+    client.connect(hostname, port, keepalive)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 941, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1075, in reconnect
+    sock = self._create_socket_connection()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3546, in _create_socket_connection
+    return socket.create_connection(addr, source_address=source, timeout=self._keepalive)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+于2021_07_02_09_15_08发生timed out错误数据未写入,已经存入sqllite数据库,本次循环开始于2021-07-02 09:14:00=========================================================
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 179, in main_for_collection
+    mqtt_publish('soundscape',json_send)
+  File "/home/pi/code_test/mqttServe_publish_test/publish_single.py", line 7, in mqtt_publish
+    ,port=1883,auth={'username':'soundscape','password':'soundscape.iue712'},keepalive=5)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 232, in single
+    protocol, transport, proxy_args)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 167, in multiple
+    client.connect(hostname, port, keepalive)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 941, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1075, in reconnect
+    sock = self._create_socket_connection()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3546, in _create_socket_connection
+    return socket.create_connection(addr, source_address=source, timeout=self._keepalive)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+于2021_07_02_10_25_08发生timed out错误数据未写入,已经存入sqllite数据库,本次循环开始于2021-07-02 10:24:00=========================================================
+Traceback (most recent call last):
+  File "/home/pi/code_executing/check_and_upload_process.py", line 30, in check_and_upload_func
+    ftp_upload(os.path.join(root,file_name),'{}/{}/{}'.format(site_no,Time_for_file,file_name))
+  File "/home/pi/code_executing/upload.py", line 37, in ftp_upload
+    ftp.storbinary('STOR %s' % newfilename, file_handler, bufsize)
+  File "/usr/lib/python3.7/ftplib.py", line 509, in storbinary
+    conn.sendall(buf)
+socket.timeout: timed out
+于2021_07_02_11_31_40发生timed out错误=========================================================
+Traceback (most recent call last):
+  File "/home/pi/code_executing/check_and_upload_process.py", line 30, in check_and_upload_func
+    ftp_upload(os.path.join(root,file_name),'{}/{}/{}'.format(site_no,Time_for_file,file_name))
+  File "/home/pi/code_executing/upload.py", line 37, in ftp_upload
+    ftp.storbinary('STOR %s' % newfilename, file_handler, bufsize)
+  File "/usr/lib/python3.7/ftplib.py", line 509, in storbinary
+    conn.sendall(buf)
+socket.timeout: timed out
+于2021_07_02_11_36_06发生timed out错误=========================================================
+Traceback (most recent call last):
+  File "/home/pi/code_executing/check_and_upload_process.py", line 30, in check_and_upload_func
+    ftp_upload(os.path.join(root,file_name),'{}/{}/{}'.format(site_no,Time_for_file,file_name))
+  File "/home/pi/code_executing/upload.py", line 37, in ftp_upload
+    ftp.storbinary('STOR %s' % newfilename, file_handler, bufsize)
+  File "/usr/lib/python3.7/ftplib.py", line 504, in storbinary
+    with self.transfercmd(cmd, rest) as conn:
+  File "/usr/lib/python3.7/ftplib.py", line 399, in transfercmd
+    return self.ntransfercmd(cmd, rest)[0]
+  File "/usr/lib/python3.7/ftplib.py", line 798, in ntransfercmd
+    conn, size = FTP.ntransfercmd(self, cmd, rest)
+  File "/usr/lib/python3.7/ftplib.py", line 365, in ntransfercmd
+    resp = self.sendcmd(cmd)
+  File "/usr/lib/python3.7/ftplib.py", line 273, in sendcmd
+    return self.getresp()
+  File "/usr/lib/python3.7/ftplib.py", line 236, in getresp
+    resp = self.getmultiline()
+  File "/usr/lib/python3.7/ftplib.py", line 222, in getmultiline
+    line = self.getline()
+  File "/usr/lib/python3.7/ftplib.py", line 204, in getline
+    line = self.file.readline(self.maxline + 1)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1052, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 911, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+于2021_07_02_11_39_35发生The read operation timed out错误=========================================================
+Traceback (most recent call last):
+  File "/home/pi/code_executing/check_and_upload_process.py", line 30, in check_and_upload_func
+    ftp_upload(os.path.join(root,file_name),'{}/{}/{}'.format(site_no,Time_for_file,file_name))
+  File "/home/pi/code_executing/upload.py", line 37, in ftp_upload
+    ftp.storbinary('STOR %s' % newfilename, file_handler, bufsize)
+  File "/usr/lib/python3.7/ftplib.py", line 504, in storbinary
+    with self.transfercmd(cmd, rest) as conn:
+  File "/usr/lib/python3.7/ftplib.py", line 399, in transfercmd
+    return self.ntransfercmd(cmd, rest)[0]
+  File "/usr/lib/python3.7/ftplib.py", line 798, in ntransfercmd
+    conn, size = FTP.ntransfercmd(self, cmd, rest)
+  File "/usr/lib/python3.7/ftplib.py", line 365, in ntransfercmd
+    resp = self.sendcmd(cmd)
+  File "/usr/lib/python3.7/ftplib.py", line 273, in sendcmd
+    return self.getresp()
+  File "/usr/lib/python3.7/ftplib.py", line 236, in getresp
+    resp = self.getmultiline()
+  File "/usr/lib/python3.7/ftplib.py", line 222, in getmultiline
+    line = self.getline()
+  File "/usr/lib/python3.7/ftplib.py", line 204, in getline
+    line = self.file.readline(self.maxline + 1)
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1052, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 911, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+于2021_07_02_11_42_47发生The read operation timed out错误=========================================================
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 179, in main_for_collection
+    mqtt_publish('soundscape',json_send)
+  File "/home/pi/code_test/mqttServe_publish_test/publish_single.py", line 7, in mqtt_publish
+    ,port=1883,auth={'username':'soundscape','password':'soundscape.iue712'},keepalive=5)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 232, in single
+    protocol, transport, proxy_args)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 167, in multiple
+    client.connect(hostname, port, keepalive)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 941, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1075, in reconnect
+    sock = self._create_socket_connection()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3546, in _create_socket_connection
+    return socket.create_connection(addr, source_address=source, timeout=self._keepalive)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+于2021_07_02_11_43_08发生timed out错误数据未写入,已经存入sqllite数据库,本次循环开始于2021-07-02 11:42:00=========================================================
+Traceback (most recent call last):
+  File "/home/pi/code_executing/check_and_upload_process.py", line 30, in check_and_upload_func
+    ftp_upload(os.path.join(root,file_name),'{}/{}/{}'.format(site_no,Time_for_file,file_name))
+  File "/home/pi/code_executing/upload.py", line 37, in ftp_upload
+    ftp.storbinary('STOR %s' % newfilename, file_handler, bufsize)
+  File "/usr/lib/python3.7/ftplib.py", line 509, in storbinary
+    conn.sendall(buf)
+socket.timeout: timed out
+于2021_07_02_11_50_00发生timed out错误=========================================================
+Traceback (most recent call last):
+  File "/home/pi/code_executing/check_and_upload_process.py", line 30, in check_and_upload_func
+    ftp_upload(os.path.join(root,file_name),'{}/{}/{}'.format(site_no,Time_for_file,file_name))
+  File "/home/pi/code_executing/upload.py", line 37, in ftp_upload
+    ftp.storbinary('STOR %s' % newfilename, file_handler, bufsize)
+  File "/usr/lib/python3.7/ftplib.py", line 509, in storbinary
+    conn.sendall(buf)
+socket.timeout: timed out
+于2021_07_02_12_13_40发生timed out错误=========================================================
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 179, in main_for_collection
+    mqtt_publish('soundscape',json_send)
+  File "/home/pi/code_test/mqttServe_publish_test/publish_single.py", line 7, in mqtt_publish
+    ,port=1883,auth={'username':'soundscape','password':'soundscape.iue712'},keepalive=5)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 232, in single
+    protocol, transport, proxy_args)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/publish.py", line 167, in multiple
+    client.connect(hostname, port, keepalive)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 941, in connect
+    return self.reconnect()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1075, in reconnect
+    sock = self._create_socket_connection()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3546, in _create_socket_connection
+    return socket.create_connection(addr, source_address=source, timeout=self._keepalive)
+  File "/usr/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+于2021_07_02_12_51_08发生timed out错误数据未写入,已经存入sqllite数据库,本次循环开始于2021-07-02 12:50:00=========================================================

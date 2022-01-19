@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 87, in main_for_collection
+    baiYe_reading_func(air_h_list,air_t_list,air_p_list,illumination_list)
+TypeError: baiYe_reading_func() takes 0 positional arguments but 4 were given
+于2021_07_01_22_16_00发生baiYe_reading_func() takes 0 positional arguments but 4 were given错误重新运行程序
+=========================================================
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 143, in main_for_collection
+    pic_name = pic_capturing_func(Time,Time_for_json)
+TypeError: pic_capturing_func() missing 1 required positional argument: 'Time_for_file'
+于2021_07_01_22_18_56发生pic_capturing_func() missing 1 required positional argument: 'Time_for_file'错误重新运行程序
+=========================================================
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 165, in main_for_collection
+    "win_speed":round(float(win_speed)/10,1),
+NameError: name 'win_speed' is not defined
+于2021_07_01_22_25_03发生name 'win_speed' is not defined错误重新运行程序
+=========================================================
+Traceback (most recent call last):
+  File "soundscape_executing_multithreading.py", line 165, in main_for_collection
+    "windSpeed":round(float(win_speed)/10,1),
+NameError: name 'win_speed' is not defined
+于2021_07_01_22_29_08发生name 'win_speed' is not defined错误重新运行程序
+=========================================================
