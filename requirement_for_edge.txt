@@ -1,0 +1,7 @@
+pyserial
+modbus_tk
+spidev
+pillow
+adafruit-circuitpython-ina219
+paho-mqtt
+apscheduler
