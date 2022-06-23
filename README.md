@@ -1,6 +1,6 @@
 # SoundscapeSensingSystem
 
-This repo contains code for paper: An Integrated and Smart Soundscape Sensing System for Urban Ecosystem Research.
+This repo contains code for paper: SSS: An Integrated and Smart Soundscape Sensing System for Urban Ecosystem Research.
 
 ## hardware requirement
 
